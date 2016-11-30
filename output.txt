@@ -1,0 +1,1005 @@
+logging in...
+WHEELBARROW WHEELS [ PNEUS ]
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02448', 'items': [{'description': u'WHEELBARROW WHEELS [ PNEUS ]', 'item_name': u'WHEELBARROW WHEELS [ PNEUS ]', 'doctype': 'Purchase Order Item', 'item_code': u'WB_WHL_PNS', 'qty': 1000.0, 'rate': 0.0, 'schedule_date': '2016-01-05'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-05', 'contact_display': 'PO02448', 'supplier': 'KENRUB Limited', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+WHEELBARROW WHEELS [ PNEUS ]
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02450', 'items': [{'description': u'WHEELBARROW WHEELS [ PNEUS ]', 'item_name': u'WHEELBARROW WHEELS [ PNEUS ]', 'doctype': 'Purchase Order Item', 'item_code': u'WB_WHL_PNS', 'qty': 1000.0, 'rate': 4.5, 'schedule_date': '2016-01-05'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-05', 'contact_display': 'PO02450', 'supplier': 'KENRUB Limited', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+STEEL SHEETS 2M x 1M x 1MM
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02447', 'items': [{'description': u'STEEL SHEETS 2M x 1M x 1MM', 'item_name': u'STEEL SHEETS 2M x 1M x 1MM', 'doctype': 'Purchase Order Item', 'item_code': u'WB _ STL_SHT_2X1X1', 'qty': 500.0, 'rate': 0.0, 'schedule_date': '2016-01-05'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-05', 'contact_display': 'PO02447', 'supplier': 'Insteel Limited', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+STEEL SHEETS 2M x 1M x 1MM
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02446', 'items': [{'description': u'STEEL SHEETS 2M x 1M x 1MM', 'item_name': u'STEEL SHEETS 2M x 1M x 1MM', 'doctype': 'Purchase Order Item', 'item_code': u'WB _ STL_SHT_2X1X1', 'qty': 500.0, 'rate': 1.0, 'schedule_date': '2016-01-05'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-05', 'contact_display': 'PO02446', 'supplier': 'Insteel Limited', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+[MED_SER] Medical Service
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02458', 'items': [{'description': u'[MED_SER] Medical Service', 'item_name': u'[MED_SER] Medical Service', 'doctype': 'Purchase Order Item', 'item_code': u'[ME/2760', 'qty': 1.0, 'rate': 204074.0, 'schedule_date': '2016-01-06'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-06', 'contact_display': 'PO02458', 'supplier': 'Mohamed Khaled', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Foundry COPPER SCRAP
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02457', 'items': [{'description': u'Foundry COPPER SCRAP', 'item_name': u'Foundry COPPER SCRAP', 'doctype': 'Purchase Order Item', 'item_code': u'FNDRY_COPP_SCR', 'qty': 100.0, 'rate': 3700.0, 'schedule_date': '2016-01-06'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-06', 'contact_display': 'PO02457', 'supplier': 'Rurinda Musa', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Magerwa fees
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02460', 'items': [{'description': u'Magerwa fees', 'item_name': u'Magerwa fees', 'doctype': 'Purchase Order Item', 'item_code': u'MAGE', 'qty': 1.0, 'rate': 23000.0, 'schedule_date': '2016-01-06'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-06', 'contact_display': 'PO02460', 'supplier': 'PETTY CASH', 'docstatus': 0, 'buying_price_list': 'Standard Buying'}
+[MED_SER] Medical Service
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02459', 'items': [{'description': u'[MED_SER] Medical Service', 'item_name': u'[MED_SER] Medical Service', 'doctype': 'Purchase Order Item', 'item_code': u'[ME/2760', 'qty': 1.0, 'rate': 172944.06, 'schedule_date': '2016-01-06'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-06', 'contact_display': 'PO02459', 'supplier': 'Mohamed Khaled', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Thermocouple
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02453', 'items': [{'description': u'Thermocouple', 'item_name': u'Thermocouple', 'doctype': 'Purchase Order Item', 'item_code': u'THER', 'qty': 1.0, 'rate': 27118.64, 'schedule_date': '2016-01-06'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-06', 'contact_display': 'PO02453', 'supplier': 'Crystal Bottle', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+FACTORY HAND GLOVES
+Tube
+Reglette Etanchee
+Interrupteurs (Swithes)
+Remplacement Roulement Avant
+PS  BODYFILLER (MASTICP 38)
+CABLE
+Shitting
+Spanner 17"
+CABLE 4 X 3.5mm
+M FICHE MALLE
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02455', 'items': [{'description': u'FACTORY HAND GLOVES', 'item_name': u'FACTORY HAND GLOVES', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_HND_GLVS', 'qty': 100.0, 'rate': 1694.92, 'schedule_date': '2016-01-06'}, {'description': u'Tube', 'item_name': u'Tube', 'doctype': 'Purchase Order Item', 'item_code': u'TUB', 'qty': 5.0, 'rate': 1271.19, 'schedule_date': '2016-01-06'}, {'description': u'Reglette Etanchee', 'item_name': u'Reglette Etanchee', 'doctype': 'Purchase Order Item', 'item_code': u'F_REGL-ETAN', 'qty': 3.0, 'rate': 8474.58, 'schedule_date': '2016-01-06'}, {'description': u'Interrupteurs (Swithes)', 'item_name': u'Interrupteurs (Swithes)', 'doctype': 'Purchase Order Item', 'item_code': u'SWITC_INT', 'qty': 3.0, 'rate': 1271.19, 'schedule_date': '2016-01-06'}, {'description': u'Remplacement Roulement Avant', 'item_name': u'Remplacement Roulement Avant', 'doctype': 'Purchase Order Item', 'item_code': u'Rmplcmnt _Rlmnt_Ant', 'qty': 40.0, 'rate': 2542.37, 'schedule_date': '2016-01-06'}, {'description': u'PS  BODYFILLER (MASTICP 38)', 'item_name': u'PS  BODYFILLER (MASTICP 38)', 'doctype': 'Purchase Order Item', 'item_code': u'PS BODYFILLER (MASTIC P38)', 'qty': 24.0, 'rate': 14830.51, 'schedule_date': '2016-01-06'}, {'description': u'CABLE', 'item_name': u'CABLE', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_CBL', 'qty': 50.0, 'rate': 1101.69, 'schedule_date': '2016-01-06'}, {'description': u'Shitting', 'item_name': u'Shitting', 'doctype': 'Purchase Order Item', 'item_code': u'SHITTING', 'qty': 2.0, 'rate': 33050.85, 'schedule_date': '2016-01-06'}, {'description': u'Spanner 17"', 'item_name': u'Spanner 17"', 'doctype': 'Purchase Order Item', 'item_code': u'SPAN-17', 'qty': 2.0, 'rate': 1694.92, 'schedule_date': '2016-01-06'}, {'description': u'CABLE 4 X 3.5mm', 'item_name': u'CABLE 4 X 3.5mm', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_CBL 4 X 3.5', 'qty': 30.0, 'rate': 1101.69, 'schedule_date': '2016-01-06'}, {'description': u'M FICHE MALLE', 'item_name': u'M FICHE MALLE', 'doctype': 'Purchase Order Item', 'item_code': u'M FICHE_MALLE', 'qty': 3.0, 'rate': 1016.95, 'schedule_date': '2016-01-06'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-06', 'contact_display': 'PO02455', 'supplier': 'Quincaillerie Epany Ltd', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Bearings 6308
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02452', 'items': [{'description': u'Bearings 6308', 'item_name': u'Bearings 6308', 'doctype': 'Purchase Order Item', 'item_code': u'BEAR-6308', 'qty': 4.0, 'rate': 4237.28, 'schedule_date': '2016-01-06'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-06', 'contact_display': 'PO02452', 'supplier': 'Quincaillerie Ufundi City Stores', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+[GEN_REP] Generator Repair
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02454', 'items': [{'description': u'[GEN_REP] Generator Repair', 'item_name': u'[GEN_REP] Generator Repair', 'doctype': 'Purchase Order Item', 'item_code': u'[GE/2758', 'qty': 1.0, 'rate': 644000.0, 'schedule_date': '2016-01-06'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-06', 'contact_display': 'PO02454', 'supplier': 'Umurego Company Ltd', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Ration
+Toilet paper
+Airtime
+Provision Cash
+Box Files
+internet service connectivity
+Envelopes
+M Multplugs
+Fuel
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02464', 'items': [{'description': u'Ration', 'item_name': u'Ration', 'doctype': 'Purchase Order Item', 'item_code': u'RATION', 'qty': 1.0, 'rate': 85000.0, 'schedule_date': '2016-01-07'}, {'description': u'Toilet paper', 'item_name': u'Toilet paper', 'doctype': 'Purchase Order Item', 'item_code': u'TOIL_PAP', 'qty': 2.0, 'rate': 7203.38, 'schedule_date': '2016-01-07'}, {'description': u'Airtime', 'item_name': u'Airtime', 'doctype': 'Purchase Order Item', 'item_code': u'AIR', 'qty': 1.0, 'rate': 50000.0, 'schedule_date': '2016-01-07'}, {'description': u'Provision Cash', 'item_name': u'Provision Cash', 'doctype': 'Purchase Order Item', 'item_code': u'PRO_CH', 'qty': 1.0, 'rate': 90000.0, 'schedule_date': '2016-01-07'}, {'description': u'Box Files', 'item_name': u'Box Files', 'doctype': 'Purchase Order Item', 'item_code': u'BOX_FIL', 'qty': 10.0, 'rate': 1016.94, 'schedule_date': '2016-01-07'}, {'description': u'internet service connectivity', 'item_name': u'internet service connectivity', 'doctype': 'Purchase Order Item', 'item_code': u'int/1276', 'qty': 1.0, 'rate': 25000.0, 'schedule_date': '2016-01-07'}, {'description': u'Envelopes', 'item_name': u'Envelopes', 'doctype': 'Purchase Order Item', 'item_code': u'ENV', 'qty': 1.0, 'rate': 2872.88, 'schedule_date': '2016-01-07'}, {'description': u'M Multplugs', 'item_name': u'M Multplugs', 'doctype': 'Purchase Order Item', 'item_code': u'M_Mltpgs', 'qty': 1.0, 'rate': 18220.33, 'schedule_date': '2016-01-07'}, {'description': u'Fuel', 'item_name': u'Fuel', 'doctype': 'Purchase Order Item', 'item_code': u'FUEL', 'qty': 45.04, 'rate': 888.0, 'schedule_date': '2016-01-07'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-07', 'contact_display': 'PO02464', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 0;
+    </script>
+</head>
+<body data-path="api/resource/Purchase Order">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- <a class="navbar-brand ellipsis" href="/"> -->
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Chillington</span>
+				</a>
+				<!-- <a class="pull-right visible-xs navbar-toggle toggle-sidebar">
+					<i class="octicon octicon-three-bars"></i>
+				</a> -->
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart">
+		<div class="cart-icon small">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class="col-sm-8 col-xs-6">
+								
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 115, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 212, in insert
+    self.run_before_save_methods()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 713, in run_before_save_methods
+    self.run_method("validate")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 661, in run_method
+    return Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 839, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 822, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 655, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.py", line 44, in validate
+    self.validate_uom_is_integer("uom", "qty")
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/utilities/transaction_base.py", line 63, in validate_uom_is_integer
+    validate_uom_is_integer(self, uom_field, qty_fields)
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/utilities/transaction_base.py", line 149, in validate_uom_is_integer
+    frappe.throw(_("Quantity cannot be a fraction in row {0}").format(d.idx), UOMMustBeIntegerError)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 299, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 292, in msgprint
+    _raise_exception()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 265, in _raise_exception
+    raise raise_exception, encode(msg)
+UOMMustBeIntegerError: Quantity cannot be a fraction in row 9
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Chillington
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+[TE_SPR] Tension Spring
+Transportation
+Magerwa fees
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02462', 'items': [{'description': u'[TE_SPR] Tension Spring', 'item_name': u'[TE_SPR] Tension Spring', 'doctype': 'Purchase Order Item', 'item_code': u'[TE/2761', 'qty': 2.0, 'rate': 10500.0, 'schedule_date': '2016-01-07'}, {'description': u'Transportation', 'item_name': u'Transportation', 'doctype': 'Purchase Order Item', 'item_code': u'TRAN', 'qty': 1.0, 'rate': 3500.0, 'schedule_date': '2016-01-07'}, {'description': u'Magerwa fees', 'item_name': u'Magerwa fees', 'doctype': 'Purchase Order Item', 'item_code': u'MAGE', 'qty': 1.0, 'rate': 26380.0, 'schedule_date': '2016-01-07'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-07', 'contact_display': 'PO02462', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+[El_MOT] Electrical Motor 7.5HP
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02465', 'items': [{'description': u'[El_MOT] Electrical Motor 7.5HP', 'item_name': u'[El_MOT] Electrical Motor 7.5HP', 'doctype': 'Purchase Order Item', 'item_code': u'[El/2762', 'qty': 1.0, 'rate': 201694.91, 'schedule_date': '2016-01-07'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-07', 'contact_display': 'PO02465', 'supplier': 'Unit Of Rewinders', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+[TE_SPR] Tension Spring
+Transportation
+Magerwa fees
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02463', 'items': [{'description': u'[TE_SPR] Tension Spring', 'item_name': u'[TE_SPR] Tension Spring', 'doctype': 'Purchase Order Item', 'item_code': u'[TE/2761', 'qty': 2.0, 'rate': 10850.0, 'schedule_date': '2016-01-07'}, {'description': u'Transportation', 'item_name': u'Transportation', 'doctype': 'Purchase Order Item', 'item_code': u'TRAN', 'qty': 1.0, 'rate': 3500.0, 'schedule_date': '2016-01-07'}, {'description': u'Magerwa fees', 'item_name': u'Magerwa fees', 'doctype': 'Purchase Order Item', 'item_code': u'MAGE', 'qty': 1.0, 'rate': 26380.0, 'schedule_date': '2016-01-07'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-07', 'contact_display': 'PO02463', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+VAT(Revenue)
+WHEELBARROW HANDLES  { Poignets }
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02449', 'items': [{'description': u'VAT(Revenue)', 'item_name': u'VAT(Revenue)', 'doctype': 'Purchase Order Item', 'item_code': u'VAT-REV', 'qty': 1.0, 'rate': 224.0, 'schedule_date': '2016-01-08'}, {'description': u'WHEELBARROW HANDLES  { Poignets }', 'item_name': u'WHEELBARROW HANDLES  { Poignets }', 'doctype': 'Purchase Order Item', 'item_code': u'WB_ HNDLS', 'qty': 5000.0, 'rate': 0.14, 'schedule_date': '2016-01-08'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-08', 'contact_display': 'PO02449', 'supplier': 'ASHUT ENGINEERING LTD', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Factory GRINDING DISCS { Disque a Poncer }
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02468', 'items': [{'description': u'Factory GRINDING DISCS { Disque a Poncer }', 'item_name': u'Factory GRINDING DISCS { Disque a Poncer }', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_DRNDNG_DCS', 'qty': 1.0, 'rate': 7067.79, 'schedule_date': '2016-01-08'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-08', 'contact_display': 'PO02468', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+WHEELBARROW HANDLES  { Poignets }
+VAT(Revenue)
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02470', 'items': [{'description': u'WHEELBARROW HANDLES  { Poignets }', 'item_name': u'WHEELBARROW HANDLES  { Poignets }', 'doctype': 'Purchase Order Item', 'item_code': u'WB_ HNDLS', 'qty': 5000.0, 'rate': 0.14, 'schedule_date': '2016-01-08'}, {'description': u'VAT(Revenue)', 'item_name': u'VAT(Revenue)', 'doctype': 'Purchase Order Item', 'item_code': u'VAT-REV', 'qty': 1.0, 'rate': 112.0, 'schedule_date': '2016-01-08'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-08', 'contact_display': 'PO02470', 'supplier': 'ASHUT ENGINEERING LTD', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Frais de mission
+[TE_SPR] Tension Spring
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02469', 'items': [{'description': u'Frais de mission', 'item_name': u'Frais de mission', 'doctype': 'Purchase Order Item', 'item_code': u'A FRA', 'qty': 1.0, 'rate': 28000.0, 'schedule_date': '2016-01-08'}, {'description': u'[TE_SPR] Tension Spring', 'item_name': u'[TE_SPR] Tension Spring', 'doctype': 'Purchase Order Item', 'item_code': u'[TE/2761', 'qty': 1.0, 'rate': 7600.0, 'schedule_date': '2016-01-08'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-08', 'contact_display': 'PO02469', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+STEEL SHEETS 2M x 1M x 1MM
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02471', 'items': [{'description': u'STEEL SHEETS 2M x 1M x 1MM', 'item_name': u'STEEL SHEETS 2M x 1M x 1MM', 'doctype': 'Purchase Order Item', 'item_code': u'WB _ STL_SHT_2X1X1', 'qty': 600.0, 'rate': 8.54, 'schedule_date': '2016-01-08'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-08', 'contact_display': 'PO02471', 'supplier': 'Insteel Limited', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+WHEELBARROW WHEELS [ PNEUS ]
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02472', 'items': [{'description': u'WHEELBARROW WHEELS [ PNEUS ]', 'item_name': u'WHEELBARROW WHEELS [ PNEUS ]', 'doctype': 'Purchase Order Item', 'item_code': u'WB_WHL_PNS', 'qty': 500.0, 'rate': 4.6, 'schedule_date': '2016-01-08'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-08', 'contact_display': 'PO02472', 'supplier': 'KENRUB Limited', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+W Hollow Section 32mm X 3.8m X 2mm
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02474', 'items': [{'description': u'W Hollow Section 32mm X 3.8m X 2mm', 'item_name': u'W Hollow Section 32mm X 3.8m X 2mm', 'doctype': 'Purchase Order Item', 'item_code': u'W_H_S_32MMX3.8MMX2M', 'qty': 1300.0, 'rate': 2.86, 'schedule_date': '2016-01-11'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-11', 'contact_display': 'PO02474', 'supplier': 'Insteel Limited', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Meche 8.5 mm
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02476', 'items': [{'description': u'Meche 8.5 mm', 'item_name': u'Meche 8.5 mm', 'doctype': 'Purchase Order Item', 'item_code': u'Meche-8', 'qty': 2.0, 'rate': 2118.64, 'schedule_date': '2016-01-11'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-11', 'contact_display': 'PO02476', 'supplier': 'COMPTOIR PRODUITS QUINCAILLERIE', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Administration Cost
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02473', 'items': [{'description': u'Administration Cost', 'item_name': u'Administration Cost', 'doctype': 'Purchase Order Item', 'item_code': u'ADMIN', 'qty': 1.0, 'rate': 539250.0, 'schedule_date': '2016-01-11'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-11', 'contact_display': 'PO02473', 'supplier': 'Blessed Dairies Ltd', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Factory GRINDING DISCS { Disque a Poncer }
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02477', 'items': [{'description': u'Factory GRINDING DISCS { Disque a Poncer }', 'item_name': u'Factory GRINDING DISCS { Disque a Poncer }', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_DRNDNG_DCS', 'qty': 1.0, 'rate': 5084.74, 'schedule_date': '2016-01-12'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-12', 'contact_display': 'PO02477', 'supplier': 'Phenicia Trading Company Ltd', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Factory GRINDING DISCS { Disque a Poncer }
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02479', 'items': [{'description': u'Factory GRINDING DISCS { Disque a Poncer }', 'item_name': u'Factory GRINDING DISCS { Disque a Poncer }', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_DRNDNG_DCS', 'qty': 1.0, 'rate': 5847.45, 'schedule_date': '2016-01-12'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-12', 'contact_display': 'PO02479', 'supplier': 'Quincaillerie Bricotech Ltd', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+34 Teeth Gear CS3 27KGS
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02480', 'items': [{'description': u'34 Teeth Gear CS3 27KGS', 'item_name': u'34 Teeth Gear CS3 27KGS', 'doctype': 'Purchase Order Item', 'item_code': u'TEG/ICRC', 'qty': 1.0, 'rate': 81107.0, 'schedule_date': '2016-01-12'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-12', 'contact_display': 'PO02480', 'supplier': 'AMEKI COLOR', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Frais de mission
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02481', 'items': [{'description': u'Frais de mission', 'item_name': u'Frais de mission', 'doctype': 'Purchase Order Item', 'item_code': u'A FRA', 'qty': 1.0, 'rate': 68000.0, 'schedule_date': '2016-01-13'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-13', 'contact_display': 'PO02481', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Clearing Service
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02482', 'items': [{'description': u'Clearing Service', 'item_name': u'Clearing Service', 'doctype': 'Purchase Order Item', 'item_code': u'CLE SE', 'qty': 1.0, 'rate': 35000.0, 'schedule_date': '2016-01-13'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-13', 'contact_display': 'PO02482', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Factory MAZOUT - DIESEL FOR GENERATOR
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02486', 'items': [{'description': u'Factory MAZOUT - DIESEL FOR GENERATOR', 'item_name': u'Factory MAZOUT - DIESEL FOR GENERATOR', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_MZT_DSL_GNRTR', 'qty': 84.67, 'rate': 874.0, 'schedule_date': '2016-01-14'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-14', 'contact_display': 'PO02486', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 0;
+    </script>
+</head>
+<body data-path="api/resource/Purchase Order">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- <a class="navbar-brand ellipsis" href="/"> -->
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Chillington</span>
+				</a>
+				<!-- <a class="pull-right visible-xs navbar-toggle toggle-sidebar">
+					<i class="octicon octicon-three-bars"></i>
+				</a> -->
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart">
+		<div class="cart-icon small">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class="col-sm-8 col-xs-6">
+								
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 115, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 212, in insert
+    self.run_before_save_methods()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 713, in run_before_save_methods
+    self.run_method("validate")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 661, in run_method
+    return Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 839, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 822, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 655, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.py", line 44, in validate
+    self.validate_uom_is_integer("uom", "qty")
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/utilities/transaction_base.py", line 63, in validate_uom_is_integer
+    validate_uom_is_integer(self, uom_field, qty_fields)
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/utilities/transaction_base.py", line 149, in validate_uom_is_integer
+    frappe.throw(_("Quantity cannot be a fraction in row {0}").format(d.idx), UOMMustBeIntegerError)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 299, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 292, in msgprint
+    _raise_exception()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 265, in _raise_exception
+    raise raise_exception, encode(msg)
+UOMMustBeIntegerError: Quantity cannot be a fraction in row 1
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Chillington
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+Factory GRINDING DISCS { Disque a Poncer }
+Factory GRINDING DISCS { Disque a Poncer }
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02487', 'items': [{'description': u'Factory GRINDING DISCS { Disque a Poncer }', 'item_name': u'Factory GRINDING DISCS { Disque a Poncer }', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_DRNDNG_DCS', 'qty': 1.0, 'rate': 7067.79, 'schedule_date': '2016-01-14'}, {'description': u'Factory GRINDING DISCS { Disque a Poncer }', 'item_name': u'Factory GRINDING DISCS { Disque a Poncer }', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_DRNDNG_DCS', 'qty': 1.0, 'rate': 6355.93, 'schedule_date': '2016-01-14'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-14', 'contact_display': 'PO02487', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Bar Soap
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02484', 'items': [{'description': u'Bar Soap', 'item_name': u'Bar Soap', 'doctype': 'Purchase Order Item', 'item_code': u'SOAP', 'qty': 6.0, 'rate': 5000.0, 'schedule_date': '2016-01-14'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-14', 'contact_display': 'PO02484', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Taraud M30
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02483', 'items': [{'description': u'Taraud M30', 'item_name': u'Taraud M30', 'doctype': 'Purchase Order Item', 'item_code': u'TARR_M301', 'qty': 3.0, 'rate': 29661.01, 'schedule_date': '2016-01-14'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-14', 'contact_display': 'PO02483', 'supplier': 'Atelier Mecanique de Rebobinage', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Fuel
+Factory GRINDING DISCS { Disque a Poncer }
+Factory GRINDING DISCS { Disque a Poncer }
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02485', 'items': [{'description': u'Fuel', 'item_name': u'Fuel', 'doctype': 'Purchase Order Item', 'item_code': u'FUEL', 'qty': 84.67, 'rate': 874.0, 'schedule_date': '2016-01-14'}, {'description': u'Factory GRINDING DISCS { Disque a Poncer }', 'item_name': u'Factory GRINDING DISCS { Disque a Poncer }', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_DRNDNG_DCS', 'qty': 1.0, 'rate': 7067.79, 'schedule_date': '2016-01-14'}, {'description': u'Factory GRINDING DISCS { Disque a Poncer }', 'item_name': u'Factory GRINDING DISCS { Disque a Poncer }', 'doctype': 'Purchase Order Item', 'item_code': u'FCTRY_DRNDNG_DCS', 'qty': 1.0, 'rate': 6355.93, 'schedule_date': '2016-01-14'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-14', 'contact_display': 'PO02485', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 0;
+    </script>
+</head>
+<body data-path="api/resource/Purchase Order">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- <a class="navbar-brand ellipsis" href="/"> -->
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Chillington</span>
+				</a>
+				<!-- <a class="pull-right visible-xs navbar-toggle toggle-sidebar">
+					<i class="octicon octicon-three-bars"></i>
+				</a> -->
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart">
+		<div class="cart-icon small">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class="col-sm-8 col-xs-6">
+								
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 115, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 212, in insert
+    self.run_before_save_methods()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 713, in run_before_save_methods
+    self.run_method("validate")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 661, in run_method
+    return Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 839, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 822, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 655, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.py", line 44, in validate
+    self.validate_uom_is_integer("uom", "qty")
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/utilities/transaction_base.py", line 63, in validate_uom_is_integer
+    validate_uom_is_integer(self, uom_field, qty_fields)
+  File "/home/frappe/frappe-bench/apps/erpnext/erpnext/utilities/transaction_base.py", line 149, in validate_uom_is_integer
+    frappe.throw(_("Quantity cannot be a fraction in row {0}").format(d.idx), UOMMustBeIntegerError)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 299, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 292, in msgprint
+    _raise_exception()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py", line 265, in _raise_exception
+    raise raise_exception, encode(msg)
+UOMMustBeIntegerError: Quantity cannot be a fraction in row 1
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Chillington
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+Magerwa fees
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02488', 'items': [{'description': u'Magerwa fees', 'item_name': u'Magerwa fees', 'doctype': 'Purchase Order Item', 'item_code': u'MAGE', 'qty': 1.0, 'rate': 3000.0, 'schedule_date': '2016-01-14'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-14', 'contact_display': 'PO02488', 'supplier': 'JASMINE INTERNATIONAL', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+FOUNDRY NITROGEN GAS
+FOUNDRY ARGON GAS
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02489', 'items': [{'description': u'FOUNDRY NITROGEN GAS', 'item_name': u'FOUNDRY NITROGEN GAS', 'doctype': 'Purchase Order Item', 'item_code': u'F_NTRGN_GAS', 'qty': 2.0, 'rate': 0.0, 'schedule_date': '2016-01-15'}, {'description': u'FOUNDRY ARGON GAS', 'item_name': u'FOUNDRY ARGON GAS', 'doctype': 'Purchase Order Item', 'item_code': u'F_ARGN_GAS', 'qty': 2.0, 'rate': 0.0, 'schedule_date': '2016-01-15'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-15', 'contact_display': 'PO02489', 'supplier': 'GAS-LAB LTD', 'docstatus': 0, 'buying_price_list': 'Standard Buying'}
+Clearing Service
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02494', 'items': [{'description': u'Clearing Service', 'item_name': u'Clearing Service', 'doctype': 'Purchase Order Item', 'item_code': u'CLE SE', 'qty': 1.0, 'rate': 25000.0, 'schedule_date': '2016-01-18'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-18', 'contact_display': 'PO02494', 'supplier': 'JASMINE INTERNATIONAL', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Service
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02426', 'items': [{'description': u'Service', 'item_name': u'Service', 'doctype': 'Purchase Order Item', 'item_code': u'Ser/1270', 'qty': 1.0, 'rate': 5361550.0, 'schedule_date': '2016-01-18'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-18', 'contact_display': 'PO02426', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+FOUNDRY CO2 GAS
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02495', 'items': [{'description': u'FOUNDRY CO2 GAS', 'item_name': u'FOUNDRY CO2 GAS', 'doctype': 'Purchase Order Item', 'item_code': u'F_CO2_GAS', 'qty': 540.0, 'rate': 600.0, 'schedule_date': '2016-01-18'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-18', 'contact_display': 'PO02495', 'supplier': 'Bralirwa', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+MS Axe 25x6000mm
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02496', 'items': [{'description': u'MS Axe 25x6000mm', 'item_name': u'MS Axe 25x6000mm', 'doctype': 'Purchase Order Item', 'item_code': u'MS (AXE-25)', 'qty': 45.0, 'rate': 2457.62, 'schedule_date': '2016-01-18'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-18', 'contact_display': 'PO02496', 'supplier': 'Atelier Mecanique de Rebobinage', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Frais de mission
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02497', 'items': [{'description': u'Frais de mission', 'item_name': u'Frais de mission', 'doctype': 'Purchase Order Item', 'item_code': u'A FRA', 'qty': 1.0, 'rate': 196350.0, 'schedule_date': '2016-01-18'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-18', 'contact_display': 'PO02497', 'supplier': 'MUGISHA SIMON', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Sugar
+Lave Vaisselle
+African Tea
+Coffee
+Airtime
+Fuel
+Yellow Paper Stickers [Etiquettes ]
+Provision Cash
+Catridge
+Wiper
+{'naming_series': 'PO-', 'company': 'Chillington', 'currency': 'RWF', 'conversion_rate': 1.0, 'title': 'PO02491', 'items': [{'description': u'Sugar', 'item_name': u'Sugar', 'doctype': 'Purchase Order Item', 'item_code': u'SUGA', 'qty': 10.0, 'rate': 700.0, 'schedule_date': '2016-01-18'}, {'description': u'Lave Vaisselle', 'item_name': u'Lave Vaisselle', 'doctype': 'Purchase Order Item', 'item_code': u'A_LAVE_VSL', 'qty': 1.0, 'rate': 600.0, 'schedule_date': '2016-01-18'}, {'description': u'African Tea', 'item_name': u'African Tea', 'doctype': 'Purchase Order Item', 'item_code': u'(AFR-TEA)', 'qty': 2.0, 'rate': 1000.0, 'schedule_date': '2016-01-18'}, {'description': u'Coffee', 'item_name': u'Coffee', 'doctype': 'Purchase Order Item', 'item_code': u'COFE', 'qty': 2.0, 'rate': 2500.0, 'schedule_date': '2016-01-18'}, {'description': u'Airtime', 'item_name': u'Airtime', 'doctype': 'Purchase Order Item', 'item_code': u'AIR', 'qty': 1.0, 'rate': 50000.0, 'schedule_date': '2016-01-18'}, {'description': u'Fuel', 'item_name': u'Fuel', 'doctype': 'Purchase Order Item', 'item_code': u'FUEL', 'qty': 40.0, 'rate': 874.0, 'schedule_date': '2016-01-18'}, {'description': u'Yellow Paper Stickers [Etiquettes ]', 'item_name': u'Yellow Paper Stickers [Etiquettes ]', 'doctype': 'Purchase Order Item', 'item_code': u'WB _ YLLW_PPR_STCKRS', 'qty': 1.0, 'rate': 1500.0, 'schedule_date': '2016-01-18'}, {'description': u'Provision Cash', 'item_name': u'Provision Cash', 'doctype': 'Purchase Order Item', 'item_code': u'PRO_CH', 'qty': 1.0, 'rate': 90000.0, 'schedule_date': '2016-01-18'}, {'description': u'Catridge', 'item_name': u'Catridge', 'doctype': 'Purchase Order Item', 'item_code': u'CATR', 'qty': 3.0, 'rate': 55000.0, 'schedule_date': '2016-01-18'}, {'description': u'Wiper', 'item_name': u'Wiper', 'doctype': 'Purchase Order Item', 'item_code': u'WPR', 'qty': 4.0, 'rate': 1000.0, 'schedule_date': '2016-01-18'}], 'price_list_currency': 'RWF', 'doctype': 'Purchase Order', 'plc_conversion_rate': 1.0, 'transaction_date': '2016-01-18', 'contact_display': 'PO02491', 'supplier': 'PETTY CASH', 'docstatus': 1, 'buying_price_list': 'Standard Buying'}
+Bolts M8x50
+Bolts M8x30
+Factory GRINDING DISCS { Disque a Poncer }
+WHEELBARROW NUTS  M16

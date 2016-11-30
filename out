@@ -1,0 +1,3431 @@
+0
+[u'30.089185', u'-1.944554']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+1
+[u'30.089169', u'-1.944611']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+2
+[u'30.08895', u'-1.94452']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+3
+[u'30.088549', u'-1.94422']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+4
+[u'30.088181', u'-1.943916']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+5
+[u'30.08783', u'-1.943572']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+6
+[u'30.087495', u'-1.943155']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+7
+[u'30.087044', u'-1.942584']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+8
+[u'30.0866', u'-1.941973']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+9
+[u'30.086131', u'-1.941312']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+10
+[u'30.085736', u'-1.94079']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email address"))
+	});
+});
+</script>
+
+
+				</div>
+			</div>
+			<div class="row footer-bottom-line">
+				<div class="text-muted small col-sm-6">
+					
+						&copy; Kasha Inc
+					
+					<br>
+					
+				</div>
+				
+				<div class="text-muted small col-sm-6 text-right footer-powered">
+					
+						<a href="https://erpnext.com?source=website_footer" target="_blank" class="text-muted">
+		Powered by ERPNext</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+</footer></div>
+	</div>
+	
+	<!-- js should be loaded in body! -->
+	<script type="text/javascript"
+		src="/assets/frappe/js/lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/assets/js/frappe-web.min.js"></script>
+	
+	<script type="text/javascript" src="/website_script.js"></script>
+	<script type="text/javascript" src="/assets/js/erpnext-web.min.js"></script>
+
+	<script>frappe.csrf_token = "None";</script></body>
+</html>
+11
+[u'30.085343', u'-1.940294']
+12
+[u'30.084831', u'-1.939796']
+<!DOCTYPE html>
+<!-- Built on Frappe. https://frappe.io/ -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Server Error</title>
+	<meta name="generator" content="frappe">
+
+    
+	<link rel="shortcut icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+	<link rel="icon"
+		href="/assets/erpnext/images/favicon.png"
+		type="image/x-icon">
+    
+
+		
+		<link type="text/css" rel="stylesheet" href="/assets/frappe/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/frappe-web.css">
+		<link type="text/css" rel="stylesheet" href="/assets/erpnext/css/website.css">
+		<link type="text/css" rel="stylesheet" href="/website_theme.css"><script>
+    window.frappe = {
+    	page_ready_events: {},
+    	ready: function(fn) {
+    		if (!frappe.page_ready_events[location.pathname]) {
+    			frappe.page_ready_events[location.pathname] = []
+    		}
+    		frappe.page_ready_events[location.pathname].push(fn);
+    	}
+    }
+    window.dev_server = 1;
+    </script>
+</head>
+<body data-path="api/resource/Location">
+	<div class="main-section">
+		<div>
+				<header>
+	<nav class="navbar navbar-default navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand ellipsis"
+					 href="/">
+					<span>Kasha Inc</span>
+				</a>
+				<div class="dropdown">
+					<button class="btn btn-default navbar-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						<i class="octicon octicon-three-bars"></i>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right">
+<li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+
+<li class="divider"></li>
+<!-- post login tools -->
+<li data-label="My Account" 
+ class=" logged-in" ><a href="/me" 
+	rel="nofollow">
+	My Account
+	</a></li><li data-label="Logout" 
+ class=" logged-in" ><a href="/?cmd=web_logout" 
+	rel="nofollow">
+	Logout
+	</a></li>
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				</div>
+			</div>
+			<div class="hidden-xs">
+				
+				<ul class="nav navbar-nav navbar-left"><li data-label='Contact' >
+	<a href="/contact"
+		
+		>
+	Contact</a></li><li data-label='Blog' >
+	<a href="/blog"
+		
+		>
+	Blog</a></li><li data-label='Products' >
+	<a href="/products"
+		
+		>
+	Products</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+	
+		
+	<li class="shopping-cart hidden">
+		<div class="cart-icon">
+			<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">
+				Cart <span class="badge-wrapper" id="cart-count"></span>
+			</a>
+			<div id="cart-overlay" class="dropdown-menu shopping-cart-menu"></div>
+		</div>
+	 </li>
+
+	
+	<!-- post login tools -->
+
+<li class="dropdown logged-in" id="website-post-login"
+	data-label="website-post-login" style="display: none">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+		<span class="user-image-wrapper"></span>
+		<span class="full-name"></span>
+		<b class="caret"></b>
+	</a>
+    <ul class="dropdown-menu" role="menu"><li data-label="My Account" 
+			><a href="/me" 
+					rel="nofollow">
+					My Account
+				</a></li><li data-label="Logout" 
+			><a href="/?cmd=web_logout" 
+					rel="nofollow">
+					Logout
+				</a></li></ul>
+</li>
+
+<li class="btn-login-area"><a href="/login">Login</a></li>
+
+
+</ul>
+				
+			</div>
+		</div>
+	</nav>
+</header><div class="hero-and-content">
+                <div data-html-block="hero"></div>
+                <div class="container" data-html-block="content">
+                
+<div class="page-container" id="page-message" data-path="message"
+	>
+			<div class="row ">
+				
+				<div class=" page-content col-sm-12 ">
+					<div class="page-content-wrapper">
+						<div class="row page-head">
+							<div class='col-sm-12'>
+								
+							</div>
+							<div class="col-sm-8 col-xs-6">
+								
+	<h1>Server Error</h1>
+
+							</div>
+							<div class="col-sm-4 col-xs-6">
+								
+
+								
+							</div>
+						</div>
+					</div>
+					<div class="page_content">
+
+<div class="message-content" style="min-height: 200px;">
+	<div>
+		<pre>Traceback (most recent call last):
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/api.py", line 120, in handle
+    "data": frappe.get_doc(data).insert().as_dict()
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 220, in insert
+    self.run_method("after_insert")
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 651, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 879, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py", line 864, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 60, in process_location
+    send_location(location.order_number, location)
+  File "/home/frappe/frappe-bench/apps/pds/pds/api.py", line 76, in send_location
+    pubnub.publish(channel=channel, message=message)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 812, in publish
+    error=self._return_wrapped_callback(error))
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 2713, in _request
+    url = self.getUrl(request, encoder_map)
+  File "/home/frappe/frappe-bench/env/local/lib/python2.7/site-packages/pubnub.py", line 1301, in getUrl
+    ]) for bit in request["urlcomponents"]])
+TypeError: 'NoneType' object is not iterable
+</pre>
+	</div>
+</div>
+</div>
+				</div>
+			</div>
+</div>
+
+                </div>
+            </div></div>
+		<div><footer class="web-footer">
+	<section class="footer-links">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-left">
+					<div class="row">
+					
+					</div>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					
+<div class='input-group input-group-sm pull-right footer-subscribe'>
+	<input class="form-control" type="text" id="footer-subscribe-email"
+		placeholder="Your email address...">
+	<span class='input-group-btn'>
+		<button class="btn btn-default" type="button"
+			id="footer-subscribe-button">Get Updates</button>
+	</span>
+</div>
+
+<script>
+frappe.ready(function() {
+	$("#footer-subscribe-button").click(function() {
+
+		if($("#footer-subscribe-email").val()) {
+			$("#footer-subscribe-email").attr('disabled', true);
+			$("#footer-subscribe-button").html("Sending...")
+				.attr("disabled", true);
+			erpnext.subscribe_to_newsletter({
+				email: $("#footer-subscribe-email").val(),
+				callback: function(r) {
+					if(!r.exc) {
+						$("#footer-subscribe-button").html(__("Added"))
+							.attr("disabled", true);
+					} else {
+						$("#footer-subscribe-button").html(__("Error: Not a valid id?"))
+							.addClass("btn-danger").attr("disabled", false);
+						$("#footer-subscribe-email").val("").attr('disabled', false);
+					}
+				}
+			});
+		}
+		else
+			frappe.msgprint(frappe._("Please enter email ad
