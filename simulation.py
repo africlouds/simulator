@@ -10,8 +10,6 @@ import string
 import random
 import threading
 from pubnub import Pubnub
-
-
 from apiclient import discovery
 import oauth2client
 from oauth2client import client
@@ -69,9 +67,9 @@ def send_location(typ,entity, location):
 	       }
 	try:
 		client.insert(location_data)
-		time.sleep(0)
 	except:
-	    pass
+		print("*** print_exc:")
+		traceback.print_exc()
 
 def post_request(order_number, pickup_point, dropoff_point):
         request_data= {
@@ -99,7 +97,7 @@ def update_request(name, field, value):
 		 pass
 class Coordinate():
 	def __init__(self, number, coordinates):
-		self.number = number
+		self.number = int(number)
 		self.coordinates = coordinates
 		self.latitude = coordinates[0]
 		self.longitude = coordinates[1]
@@ -118,16 +116,21 @@ def locations():
     rangeName = 'Locations!A2300:B2480'
     result = service.spreadsheets().values().get(
         spreadsheetId=spreadsheetId, range=rangeName).execute()
-    locations = []
+    all_locations = []
     for number, location in enumerate(result.get('values', [])):
-	locations.append(Coordinate(number, location))
-    return locations
+		all_locations.append(Coordinate(number, location))
+    return all_locations
 
 def initialize_clerks(clerks, locations):
 	for clerk in clerks:
 		clerk = client.get_doc("User", clerk)
-		location = locations[random.randint(1, len(locations) -1)]  
+		location = locations[random.randint(1, len(locations) -1)]
 		clerk['location'] = location.formatted()
+		clerk['location_number'] = location.number
+		if clerk['email'] == 'sebudandi@gmail.com':
+			clerk['status'] = 'Free'
+		else:
+			clerk['status'] = 'Busy'
 		try:
 			client.update(clerk)
 		except:
@@ -135,11 +138,10 @@ def initialize_clerks(clerks, locations):
 		
 
 class Delivery(threading.Thread):
-	def __init__(self, order_id, order_number,locations, pickup_point, dropoff_point):
+	def __init__(self, order_id, order_number, pickup_point, dropoff_point):
 		threading.Thread.__init__(self)
 		self.order_id = order_id
 		self.order_number = order_number
-		self.locations = locations
 		self.pickup_point = pickup_point
 		self.dropoff_point = dropoff_point
 
@@ -151,6 +153,32 @@ class Delivery(threading.Thread):
 
 	def run(self):
 		pubnub.subscribe(channels=self.order_number, callback=self.callback)
+
+
+class Clerk(threading.Thread):
+	def __init__(self, locations, location, email, delivery = None):
+		threading.Thread.__init__(self)
+		self.locations = locations
+		self.location = location
+		self.email = email
+		self.delivery = delivery
+
+	def set_location(self, location):
+		self.location = location 
+
+	def move(self, start, end):
+		direction  = -1 if start.number > end.number else 1
+		for location_number in range(start.number, end.number, direction):
+			self.set_location(self.locations[location_number])
+			send_location('Delivery Clerk', self.email, self.locations[location_number])
+
+	def deliver(self):
+		update_request(self.delivery.order_id, 'status', 'Assigned')
+		self.move(self.location, self.delivery.pickup_point)
+
+	def run(self):
+		if self.delivery:
+			self.deliver()
 			
 
 if __name__ == '__main__':

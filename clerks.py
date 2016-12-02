@@ -22,17 +22,23 @@ def update_request(name, field, value):
 
 
 def callback(message, channel):
-	print(channel)
-	print(message)
+	#print(channel)
+	#print(message)
 	if 'type' in message and message['type'] == 'Delivery Request':
 		try:
-        		request = client.get_doc("Delivery Request", message['order_id'])
-			update_request(message['order_id'], 'status', 'Assigned')
-			start = request['pickup_point_number']
-			finish = request['dropoff_point_number']
-			direction  = -1 if start > finish else 1
-			for location_number in range(start, finish, direction):
-				simulation.send_location('Delivery Clerk', request['assigned_clerk'], locations[location_number])
+			request = client.get_doc("Delivery Request", filters=[["Delivery Request", "name","=",message['order_id']]], fields=["name","pickup_point", "dropoff_point","pickup_point_number","dropoff_point_number","order_number","assigned_clerk"])
+			request = request[0]
+			pickup_point = request['pickup_point'].split(",")
+			dropoff_point = request['dropoff_point'].split(",")
+			pickup_point = simulation.Coordinate(request['pickup_point_number'],pickup_point) 
+			dropoff_point = simulation.Coordinate(request['dropoff_point_number'],dropoff_point) 
+			delivery_request = simulation.Delivery(request['name'], request['order_number'], pickup_point, dropoff_point) 
+        		clerk = client.get_doc("User", filters=[["User", "name", "=", request['assigned_clerk']]], fields=["location", "location_number", "email"])
+			clerk = clerk[0]
+			clerk_location = clerk['location'].split(",")
+			clerk_location = simulation.Coordinate(clerk['location_number'], clerk_location) 
+			clerk = simulation.Clerk(locations, clerk_location, clerk['email'], delivery_request)
+			clerk.start()
 		except:
 			print "*** print_exc:"
 			traceback.print_exc()
