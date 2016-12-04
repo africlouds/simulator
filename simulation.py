@@ -14,6 +14,7 @@ from apiclient import discovery
 import oauth2client
 from oauth2client import client
 from oauth2client import tools
+import requests
 
 try:
     import argparse
@@ -25,6 +26,7 @@ except ImportError:
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Google Sheets API Python Quickstart'
+SERVER_URL = "http://pds.intego.rw:8000"
 client = FrappeClient("http://pds.intego.rw:8000", "administrator", "pds")
 
 pubnub = Pubnub(publish_key="pub-c-21663d8a-850d-4d99-adb3-3dda55a02abd", subscribe_key="sub-c-266bcbc0-9884-11e6-b146-0619f8945a4f")
@@ -127,10 +129,8 @@ def initialize_clerks(clerks, locations):
 		location = locations[random.randint(1, len(locations) -1)]
 		clerk['location'] = location.formatted()
 		clerk['location_number'] = location.number
-		if clerk['email'] == 'sebudandi@gmail.com':
-			clerk['status'] = 'Free'
-		else:
-			clerk['status'] = 'Busy'
+		#clerk['status'] = 'Free' if clerk['email'] == 'sebudandi@gmail.com' else 'Busy'
+		clerk['status'] = 'Free'
 		try:
 			client.update(clerk)
 		except:
@@ -150,6 +150,16 @@ class Delivery(threading.Thread):
 			update_request(self.order_id, 'status', 'Assigned')
 			for location in self.locations[self.pickup_point.number:self.dropoff_point.number]:
 				send_location('Delivery Clerk', message['message'], location)
+
+	def start_delivering(self):
+		r = requests.get(SERVER_URL+"/api/method/pds.api.start_delivering?order_number=%s" % self.order_id)
+		update_request(self.order_id, 'status', 'Delivering')
+		return r.status_code
+
+	def finish_delivering(self):
+		r = requests.get(SERVER_URL+"/api/method/pds.api.finish_delivering?order_number=%s" % self.order_id)
+		update_request(self.order_id, 'status', 'Delivered')
+		return r.status_code
 
 	def run(self):
 		pubnub.subscribe(channels=self.order_number, callback=self.callback)
@@ -175,6 +185,11 @@ class Clerk(threading.Thread):
 	def deliver(self):
 		update_request(self.delivery.order_id, 'status', 'Assigned')
 		self.move(self.location, self.delivery.pickup_point)
+		self.delivery.start_delivering()
+		self.move(self.delivery.pickup_point, self.delivery.dropoff_point)
+		self.delivery.finish_delivering()
+		self.move(self.delivery.dropoff_point, self.delivery.pickup_point)
+
 
 	def run(self):
 		if self.delivery:
@@ -207,11 +222,14 @@ if __name__ == '__main__':
 		#send client location
 		send_location('Client', order_number, dropoff_point)
 
-		"""
-		deliver = Delivery(order_id, order_number, locations, pickup_point, dropoff_point)
-		deliver.start()
-		time.sleep(10)
-		update_request(name, 'status', 'Delivering')
-		time.sleep(10)
-		update_request(name, 'status', 'Delivered')
-		"""
+	"""
+	order_number = "sim_order_"+id_generator(size=6)
+	dropoff_point = locations[random.randint(1, len(locations) -1)]
+	order_id = post_request(order_number, warehouse, dropoff_point)
+	delivery = Delivery(order_id, order_number, warehouse, dropoff_point)
+	update_request(order_id, 'status', 'Assigned')
+	payload = {'usr': 'sebudandi@gmail.com', 'pwd': 'sebudandi'}
+	print(requests.post("http://pds.intego.rw:8000/api/method/login", data=payload))
+	print(delivery.start_delivering())
+	print(delivery.finish_delivering())
+	"""
